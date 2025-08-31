@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Login from './components/login';
-import Admin from './components/Admin';
+import Admin from "./components/admin";
 import Employee from './components/emplyoee';
 import { Toaster } from "react-hot-toast";
 
