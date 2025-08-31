@@ -55,6 +55,10 @@ utils/      -> Utility functions for email sending and other tasks
 - `GET /api/admin/dashboard` → Admin dashboard for managing employee data and leave policies  
 
 ---
+## 🌐 Deployment Links
+- Frontend (Vercel): [Deployed Link](https://employee-leave-manager.vercel.app)
+- Backend (Render): [Deployed Link](https://employee-leave-manager-1.onrender.com)
+---
 
 ## ⚙️ Installation and Setup
 
