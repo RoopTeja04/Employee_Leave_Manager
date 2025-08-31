@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 app.use("/api/user", userRouter);
 app.use("/api/leave", require("./router/leaveroute"));
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`Server is running on port ${process.env.PORT}`);
     mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
         .then(() => console.log("MongoDB connected"))
